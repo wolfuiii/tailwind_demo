@@ -3,13 +3,13 @@ import './App.css';
 
 function App() {
   return (
-      <div className="App min-h-screen flex items-center justify-center">
+      <div className="App min-h-screen flex items-center justify-center bg-gray-700">
         <div className="bg-gray-800 text-white p-8 rounded-lg shadow-md">
           <h1 className="text-3xl font-bold mb-4">Tailwind Beispiele</h1>
           <div className="flex flex-col">
               <div className="mb-4">
                   <label className="block text-sm font-semibold mb-2" htmlFor="selectInput">
-                      Select Input
+                      Auswahl
                   </label>
                   <select
                       id="selectInput"
@@ -23,7 +23,7 @@ function App() {
 
               <div className="mb-4">
                   <label className="block text-sm font-semibold mb-2" htmlFor="numberInput">
-                      Number Input
+                      Zahlen Eingabe
                   </label>
                   <input
                       type="number"
@@ -34,7 +34,7 @@ function App() {
 
               <div className="mb-6">
                   <label className="block text-sm font-semibold mb-2" htmlFor="stringInput">
-                      String Input
+                      Text
                   </label>
                   <input
                       type="text"
@@ -44,7 +44,7 @@ function App() {
               </div>
 
               <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
-                  Click me
+                  Button
               </button>
           </div>
         </div>
